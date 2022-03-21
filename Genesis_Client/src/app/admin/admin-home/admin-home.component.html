@@ -1,0 +1,27 @@
+<h4>Welcome {{userName}}</h4>
+<br>
+<div>
+    <ul class = "nav-bar">
+        <!--
+        <li><a *ngIf="!loginService.isUserLoggedIn()" routerLink="/login" class="nav-link">Login</a></li>
+        <li><a *ngIf="loginService.isUserLoggedIn()" routerLink="/logout" class="nav-link">Logout</a></li>
+        -->
+
+        <li class="nav-item">
+            <a *ngIf="isUserLoggedIn()"  routerLink="/users" class="nav-link" routerLinkActive="active">Employee List</a>
+        </li>
+        <li class="nav-item">
+            <a *ngIf="isUserLoggedIn()"  routerLink="/add" class="nav-link" routerLinkActive="active">Add Employee</a>
+        </li>
+        
+        <li class="nav-item">
+            <a *ngIf="isUserLoggedIn()"  routerLink="/userCredentialList" class="nav-link" routerLinkActive="active">View All User Credentials</a>
+        </li>
+        
+        <li class="nav-item">
+            <a *ngIf="isUserLoggedIn()"  routerLink="/newUser" class="nav-link" routerLinkActive="active">Add New User Credentials</a>
+        </li> 
+             
+        
+    </ul>
+</div>

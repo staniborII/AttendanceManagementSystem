@@ -1,0 +1,13 @@
+fieldset {
+    background-color: #eeeeee;
+  }
+  
+  legend {
+    background-color: rgb(209, 203, 203);
+    color: black;
+    padding: 15px 20px;
+  }
+  
+  input {
+    margin: 1px;
+  }

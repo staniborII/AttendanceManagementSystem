@@ -1,0 +1,430 @@
+2020-Sep-13 10:03:59 am [main] INFO  com.genesis.GenesisBackEndApplication - Starting GenesisBackEndApplication on LAPTOP-IK3ASUU3 with PID 16788 (C:\Users\stani\eclipse-workspace\JavaWorkspace\GenesisBackEnd_V2.1\target\classes started by stani in C:\Users\stani\eclipse-workspace\JavaWorkspace\GenesisBackEnd_V2.1)
+2020-Sep-13 10:03:59 am [main] INFO  com.genesis.GenesisBackEndApplication - No active profile set, falling back to default profiles: default
+2020-Sep-13 10:04:00 am [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-Sep-13 10:04:00 am [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 27ms. Found 0 JPA repository interfaces.
+2020-Sep-13 10:04:01 am [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3557 (http)
+2020-Sep-13 10:04:01 am [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3557"]
+2020-Sep-13 10:04:01 am [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-Sep-13 10:04:01 am [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-Sep-13 10:04:01 am [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-Sep-13 10:04:01 am [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2036 ms
+2020-Sep-13 10:04:02 am [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-Sep-13 10:04:02 am [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-Sep-13 10:04:02 am [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-Sep-13 10:04:02 am [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-Sep-13 10:04:03 am [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-Sep-13 10:04:03 am [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2020-Sep-13 10:04:04 am [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-Sep-13 10:04:04 am [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-Sep-13 10:04:04 am [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-Sep-13 10:04:05 am [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-Sep-13 10:04:05 am [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3557"]
+2020-Sep-13 10:04:05 am [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3557 (http) with context path ''
+2020-Sep-13 10:04:05 am [main] INFO  com.genesis.GenesisBackEndApplication - Started GenesisBackEndApplication in 6.251 seconds (JVM running for 7.616)
+2020-Sep-13 10:10:47 am [main] INFO  com.genesis.GenesisBackEndApplication - Starting GenesisBackEndApplication on LAPTOP-IK3ASUU3 with PID 22924 (C:\Users\stani\eclipse-workspace\JavaWorkspace\GenesisBackEnd_V2.1\target\classes started by stani in C:\Users\stani\eclipse-workspace\JavaWorkspace\GenesisBackEnd_V2.1)
+2020-Sep-13 10:10:47 am [main] INFO  com.genesis.GenesisBackEndApplication - No active profile set, falling back to default profiles: default
+2020-Sep-13 10:10:49 am [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-Sep-13 10:10:49 am [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 32ms. Found 0 JPA repository interfaces.
+2020-Sep-13 10:10:50 am [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3557 (http)
+2020-Sep-13 10:10:50 am [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3557"]
+2020-Sep-13 10:10:50 am [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-Sep-13 10:10:50 am [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-Sep-13 10:10:50 am [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-Sep-13 10:10:50 am [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2628 ms
+2020-Sep-13 10:10:50 am [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-Sep-13 10:10:51 am [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-Sep-13 10:10:51 am [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-Sep-13 10:10:51 am [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-Sep-13 10:10:51 am [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-Sep-13 10:10:51 am [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2020-Sep-13 10:10:52 am [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-Sep-13 10:10:52 am [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-Sep-13 10:10:52 am [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-Sep-13 10:10:53 am [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-Sep-13 10:10:53 am [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3557"]
+2020-Sep-13 10:10:54 am [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3557 (http) with context path ''
+2020-Sep-13 10:10:54 am [main] INFO  com.genesis.GenesisBackEndApplication - Started GenesisBackEndApplication in 6.563 seconds (JVM running for 7.7)
+2020-Sep-13 10:13:06 am [http-nio-3557-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-Sep-13 10:13:06 am [http-nio-3557-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-Sep-13 10:13:06 am [http-nio-3557-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 50 ms
+2020-Sep-13 11:06:24 am [main] INFO  com.genesis.GenesisBackEndApplication - Starting GenesisBackEndApplication on LAPTOP-IK3ASUU3 with PID 17772 (C:\Users\stani\eclipse-workspace\JavaWorkspace\GenesisBackEnd_V2.1\target\classes started by stani in C:\Users\stani\eclipse-workspace\JavaWorkspace\GenesisBackEnd_V2.1)
+2020-Sep-13 11:06:24 am [main] INFO  com.genesis.GenesisBackEndApplication - No active profile set, falling back to default profiles: default
+2020-Sep-13 11:06:25 am [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-Sep-13 11:06:25 am [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 29ms. Found 0 JPA repository interfaces.
+2020-Sep-13 11:06:26 am [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3557 (http)
+2020-Sep-13 11:06:26 am [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3557"]
+2020-Sep-13 11:06:26 am [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-Sep-13 11:06:26 am [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-Sep-13 11:06:26 am [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-Sep-13 11:06:26 am [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2109 ms
+2020-Sep-13 11:06:26 am [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-Sep-13 11:06:26 am [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-Sep-13 11:06:27 am [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-Sep-13 11:06:27 am [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-Sep-13 11:06:27 am [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-Sep-13 11:06:27 am [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2020-Sep-13 11:06:29 am [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-Sep-13 11:06:29 am [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-Sep-13 11:06:29 am [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-Sep-13 11:06:29 am [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-Sep-13 11:06:29 am [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3557"]
+2020-Sep-13 11:06:30 am [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3557 (http) with context path ''
+2020-Sep-13 11:06:30 am [main] INFO  com.genesis.GenesisBackEndApplication - Started GenesisBackEndApplication in 6.327 seconds (JVM running for 7.559)
+2020-Sep-13 11:06:36 am [http-nio-3557-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-Sep-13 11:06:36 am [http-nio-3557-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-Sep-13 11:06:36 am [http-nio-3557-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 20 ms
+2020-Sep-13 11:46:21 am [http-nio-3557-exec-1] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2020-Sep-13 11:46:44 am [http-nio-3557-exec-2] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2020-Sep-13 11:48:27 am [http-nio-3557-exec-3] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2020-Sep-13 11:50:47 am [http-nio-3557-exec-9] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2020-Sep-13 12:17:38 pm [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m40s359ms876µs400ns).
+2020-Sep-13 15:36:23 pm [main] INFO  com.genesis.GenesisBackEndApplication - Starting GenesisBackEndApplication on LAPTOP-IK3ASUU3 with PID 12512 (C:\Users\stani\eclipse-workspace\JavaWorkspace\GenesisBackEnd_V2.1\target\classes started by stani in C:\Users\stani\eclipse-workspace\JavaWorkspace\GenesisBackEnd_V2.1)
+2020-Sep-13 15:36:23 pm [main] INFO  com.genesis.GenesisBackEndApplication - No active profile set, falling back to default profiles: default
+2020-Sep-13 15:36:24 pm [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-Sep-13 15:36:24 pm [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 33ms. Found 0 JPA repository interfaces.
+2020-Sep-13 15:36:25 pm [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3557 (http)
+2020-Sep-13 15:36:25 pm [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3557"]
+2020-Sep-13 15:36:25 pm [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-Sep-13 15:36:25 pm [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-Sep-13 15:36:25 pm [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-Sep-13 15:36:25 pm [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2339 ms
+2020-Sep-13 15:36:26 pm [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-Sep-13 15:36:26 pm [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-Sep-13 15:36:26 pm [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-Sep-13 15:36:26 pm [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-Sep-13 15:36:27 pm [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-Sep-13 15:36:27 pm [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2020-Sep-13 15:36:28 pm [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-Sep-13 15:36:28 pm [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-Sep-13 15:36:28 pm [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-Sep-13 15:36:28 pm [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-Sep-13 15:36:29 pm [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3557"]
+2020-Sep-13 15:36:29 pm [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3557 (http) with context path ''
+2020-Sep-13 15:36:29 pm [main] INFO  com.genesis.GenesisBackEndApplication - Started GenesisBackEndApplication in 6.358 seconds (JVM running for 7.753)
+2020-Sep-13 15:36:38 pm [http-nio-3557-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-Sep-13 15:36:38 pm [http-nio-3557-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-Sep-13 15:36:38 pm [http-nio-3557-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 44 ms
+2020-Sep-13 15:38:20 pm [main] INFO  com.genesis.GenesisBackEndApplication - Starting GenesisBackEndApplication on LAPTOP-IK3ASUU3 with PID 2948 (C:\Users\stani\eclipse-workspace\JavaWorkspace\GenesisBackEnd_V2.1\target\classes started by stani in C:\Users\stani\eclipse-workspace\JavaWorkspace\GenesisBackEnd_V2.1)
+2020-Sep-13 15:38:20 pm [main] INFO  com.genesis.GenesisBackEndApplication - No active profile set, falling back to default profiles: default
+2020-Sep-13 15:38:21 pm [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-Sep-13 15:38:21 pm [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28ms. Found 0 JPA repository interfaces.
+2020-Sep-13 15:38:21 pm [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3557 (http)
+2020-Sep-13 15:38:21 pm [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3557"]
+2020-Sep-13 15:38:21 pm [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-Sep-13 15:38:21 pm [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-Sep-13 15:38:22 pm [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-Sep-13 15:38:22 pm [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1945 ms
+2020-Sep-13 15:38:22 pm [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-Sep-13 15:38:22 pm [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-Sep-13 15:38:22 pm [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-Sep-13 15:38:22 pm [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-Sep-13 15:38:23 pm [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-Sep-13 15:38:23 pm [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2020-Sep-13 15:38:24 pm [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-Sep-13 15:38:24 pm [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-Sep-13 15:38:24 pm [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-Sep-13 15:38:25 pm [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-Sep-13 15:38:25 pm [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3557"]
+2020-Sep-13 15:38:25 pm [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3557 (http) with context path ''
+2020-Sep-13 15:38:25 pm [main] INFO  com.genesis.GenesisBackEndApplication - Started GenesisBackEndApplication in 5.92 seconds (JVM running for 7.556)
+2020-Sep-13 15:38:38 pm [http-nio-3557-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-Sep-13 15:38:38 pm [http-nio-3557-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-Sep-13 15:38:38 pm [http-nio-3557-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 28 ms
+2020-Sep-13 15:39:29 pm [main] INFO  com.genesis.GenesisBackEndApplication - Starting GenesisBackEndApplication on LAPTOP-IK3ASUU3 with PID 20112 (C:\Users\stani\eclipse-workspace\JavaWorkspace\GenesisBackEnd_V2.1\target\classes started by stani in C:\Users\stani\eclipse-workspace\JavaWorkspace\GenesisBackEnd_V2.1)
+2020-Sep-13 15:39:29 pm [main] INFO  com.genesis.GenesisBackEndApplication - No active profile set, falling back to default profiles: default
+2020-Sep-13 15:39:30 pm [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-Sep-13 15:39:30 pm [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 33ms. Found 0 JPA repository interfaces.
+2020-Sep-13 15:39:31 pm [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3557 (http)
+2020-Sep-13 15:39:31 pm [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3557"]
+2020-Sep-13 15:39:31 pm [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-Sep-13 15:39:31 pm [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-Sep-13 15:39:31 pm [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-Sep-13 15:39:31 pm [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2149 ms
+2020-Sep-13 15:39:31 pm [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-Sep-13 15:39:31 pm [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-Sep-13 15:39:32 pm [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-Sep-13 15:39:32 pm [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-Sep-13 15:39:32 pm [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-Sep-13 15:39:32 pm [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2020-Sep-13 15:39:34 pm [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-Sep-13 15:39:34 pm [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-Sep-13 15:39:34 pm [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-Sep-13 15:39:34 pm [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-Sep-13 15:39:35 pm [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3557"]
+2020-Sep-13 15:39:35 pm [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3557 (http) with context path ''
+2020-Sep-13 15:39:35 pm [main] INFO  com.genesis.GenesisBackEndApplication - Started GenesisBackEndApplication in 6.5 seconds (JVM running for 7.969)
+2020-Sep-13 15:39:51 pm [http-nio-3557-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-Sep-13 15:39:51 pm [http-nio-3557-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-Sep-13 15:39:51 pm [http-nio-3557-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 27 ms
+2020-Sep-19 09:46:33 am [main] INFO  com.genesis.GenesisBackEndApplication - Starting GenesisBackEndApplication on LAPTOP-IK3ASUU3 with PID 2512 (C:\Users\stani\eclipse-workspace\JavaWorkspace\GenesisBackEnd_V2.1\target\classes started by stani in C:\Users\stani\eclipse-workspace\JavaWorkspace\GenesisBackEnd_V2.1)
+2020-Sep-19 09:46:33 am [main] INFO  com.genesis.GenesisBackEndApplication - No active profile set, falling back to default profiles: default
+2020-Sep-19 09:46:34 am [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-Sep-19 09:46:34 am [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 42ms. Found 0 JPA repository interfaces.
+2020-Sep-19 09:46:35 am [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3557 (http)
+2020-Sep-19 09:46:35 am [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3557"]
+2020-Sep-19 09:46:35 am [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-Sep-19 09:46:35 am [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-Sep-19 09:46:35 am [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-Sep-19 09:46:35 am [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2165 ms
+2020-Sep-19 09:46:35 am [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-Sep-19 09:46:35 am [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-Sep-19 09:46:36 am [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-Sep-19 09:46:36 am [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-Sep-19 09:46:36 am [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-Sep-19 09:46:36 am [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2020-Sep-19 09:46:38 am [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-Sep-19 09:46:38 am [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-Sep-19 09:46:38 am [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-Sep-19 09:46:38 am [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-Sep-19 09:46:39 am [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3557"]
+2020-Sep-19 09:46:39 am [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3557 (http) with context path ''
+2020-Sep-19 09:46:39 am [main] INFO  com.genesis.GenesisBackEndApplication - Started GenesisBackEndApplication in 6.589 seconds (JVM running for 7.689)
+2020-Sep-19 09:47:01 am [http-nio-3557-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-Sep-19 09:47:01 am [http-nio-3557-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-Sep-19 09:47:01 am [http-nio-3557-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 24 ms
+2020-Oct-04 19:45:25 pm [main] INFO  com.genesis.GenesisBackEndApplication - Starting GenesisBackEndApplication on LAPTOP-IK3ASUU3 with PID 24716 (C:\Users\stani\eclipse-workspace\JavaWorkspace\GenesisBackEnd_V2.1\target\classes started by stani in C:\Users\stani\eclipse-workspace\JavaWorkspace\GenesisBackEnd_V2.1)
+2020-Oct-04 19:45:25 pm [main] INFO  com.genesis.GenesisBackEndApplication - No active profile set, falling back to default profiles: default
+2020-Oct-04 19:45:26 pm [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-Oct-04 19:45:26 pm [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 41ms. Found 0 JPA repository interfaces.
+2020-Oct-04 19:45:28 pm [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3557 (http)
+2020-Oct-04 19:45:28 pm [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3557"]
+2020-Oct-04 19:45:28 pm [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-Oct-04 19:45:28 pm [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-Oct-04 19:45:28 pm [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-Oct-04 19:45:28 pm [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2788 ms
+2020-Oct-04 19:45:28 pm [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-Oct-04 19:45:29 pm [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-Oct-04 19:45:29 pm [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-Oct-04 19:45:29 pm [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-Oct-04 19:45:30 pm [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-Oct-04 19:45:30 pm [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2020-Oct-04 19:45:32 pm [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-Oct-04 19:45:32 pm [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-Oct-04 19:45:32 pm [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-Oct-04 19:45:33 pm [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-Oct-04 19:45:33 pm [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3557"]
+2020-Oct-04 19:45:33 pm [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3557 (http) with context path ''
+2020-Oct-04 19:45:33 pm [main] INFO  com.genesis.GenesisBackEndApplication - Started GenesisBackEndApplication in 8.713 seconds (JVM running for 10.451)
+2020-Oct-04 19:45:58 pm [http-nio-3557-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-Oct-04 19:45:58 pm [http-nio-3557-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-Oct-04 19:45:58 pm [http-nio-3557-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 26 ms
+2020-Oct-04 21:57:37 pm [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h34m7s392ms479µs600ns).
+2020-Oct-05 12:38:50 pm [main] INFO  com.genesis.GenesisBackEndApplication - Starting GenesisBackEndApplication on LAPTOP-IK3ASUU3 with PID 8592 (C:\Users\stani\eclipse-workspace\JavaWorkspace\GenesisBackEnd_V2.1\target\classes started by stani in C:\Users\stani\eclipse-workspace\JavaWorkspace\GenesisBackEnd_V2.1)
+2020-Oct-05 12:38:50 pm [main] INFO  com.genesis.GenesisBackEndApplication - No active profile set, falling back to default profiles: default
+2020-Oct-05 12:38:51 pm [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-Oct-05 12:38:51 pm [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 34ms. Found 0 JPA repository interfaces.
+2020-Oct-05 12:38:52 pm [main] INFO  com.genesis.GenesisBackEndApplication - Starting GenesisBackEndApplication on LAPTOP-IK3ASUU3 with PID 23628 (C:\Users\stani\eclipse-workspace\JavaWorkspace\GenesisBackEnd_V2.1\target\classes started by stani in C:\Users\stani\eclipse-workspace\JavaWorkspace\GenesisBackEnd_V2.1)
+2020-Oct-05 12:38:52 pm [main] INFO  com.genesis.GenesisBackEndApplication - No active profile set, falling back to default profiles: default
+2020-Oct-05 12:38:53 pm [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3557 (http)
+2020-Oct-05 12:38:53 pm [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3557"]
+2020-Oct-05 12:38:53 pm [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-Oct-05 12:38:53 pm [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-Oct-05 12:38:53 pm [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-Oct-05 12:38:53 pm [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2775 ms
+2020-Oct-05 12:38:53 pm [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-Oct-05 12:38:53 pm [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 53ms. Found 0 JPA repository interfaces.
+2020-Oct-05 12:38:54 pm [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-Oct-05 12:38:54 pm [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-Oct-05 12:38:54 pm [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-Oct-05 12:38:54 pm [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-Oct-05 12:38:55 pm [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3557 (http)
+2020-Oct-05 12:38:55 pm [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3557"]
+2020-Oct-05 12:38:55 pm [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-Oct-05 12:38:55 pm [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-Oct-05 12:38:55 pm [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-Oct-05 12:38:55 pm [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2020-Oct-05 12:38:55 pm [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-Oct-05 12:38:55 pm [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2967 ms
+2020-Oct-05 12:38:56 pm [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-Oct-05 12:38:56 pm [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-Oct-05 12:38:56 pm [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-Oct-05 12:38:56 pm [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-Oct-05 12:38:57 pm [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-Oct-05 12:38:57 pm [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2020-Oct-05 12:38:57 pm [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-Oct-05 12:38:57 pm [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-Oct-05 12:38:57 pm [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-Oct-05 12:38:58 pm [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-Oct-05 12:38:58 pm [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3557"]
+2020-Oct-05 12:38:59 pm [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-Oct-05 12:38:59 pm [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-Oct-05 12:38:59 pm [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-3557"]
+2020-Oct-05 12:38:59 pm [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-Oct-05 12:38:59 pm [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-3557"]
+2020-Oct-05 12:38:59 pm [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-3557"]
+2020-Oct-05 12:38:59 pm [main] INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-Oct-05 12:38:59 pm [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 3557 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 3557 or configure this application to listen on another port.
+
+2020-Oct-05 12:38:59 pm [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-Oct-05 12:38:59 pm [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-Oct-05 12:38:59 pm [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-Oct-05 12:38:59 pm [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-Oct-05 12:38:59 pm [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-Oct-05 12:38:59 pm [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-Oct-05 12:38:59 pm [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3557"]
+2020-Oct-05 12:39:00 pm [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-3557"]
+2020-Oct-05 12:39:00 pm [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-Oct-05 12:39:00 pm [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-3557"]
+2020-Oct-05 12:39:00 pm [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-3557"]
+2020-Oct-05 12:39:00 pm [main] INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-Oct-05 12:39:00 pm [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 3557 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 3557 or configure this application to listen on another port.
+
+2020-Oct-05 12:39:00 pm [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-Oct-05 12:39:00 pm [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-Oct-05 12:39:00 pm [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-Oct-05 12:39:00 pm [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-Oct-05 12:40:04 pm [main] INFO  com.genesis.GenesisBackEndApplication - Starting GenesisBackEndApplication on LAPTOP-IK3ASUU3 with PID 19856 (C:\Users\stani\eclipse-workspace\JavaWorkspace\GenesisBackEnd_V2.1\target\classes started by stani in C:\Users\stani\eclipse-workspace\JavaWorkspace\GenesisBackEnd_V2.1)
+2020-Oct-05 12:40:04 pm [main] INFO  com.genesis.GenesisBackEndApplication - No active profile set, falling back to default profiles: default
+2020-Oct-05 12:40:05 pm [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-Oct-05 12:40:05 pm [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25ms. Found 0 JPA repository interfaces.
+2020-Oct-05 12:40:05 pm [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3557 (http)
+2020-Oct-05 12:40:05 pm [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3557"]
+2020-Oct-05 12:40:05 pm [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-Oct-05 12:40:05 pm [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-Oct-05 12:40:05 pm [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-Oct-05 12:40:05 pm [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1542 ms
+2020-Oct-05 12:40:06 pm [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-Oct-05 12:40:06 pm [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-Oct-05 12:40:06 pm [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-Oct-05 12:40:06 pm [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-Oct-05 12:40:06 pm [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-Oct-05 12:40:07 pm [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2020-Oct-05 12:40:07 pm [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-Oct-05 12:40:07 pm [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-Oct-05 12:40:08 pm [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-Oct-05 12:40:08 pm [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-Oct-05 12:40:08 pm [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3557"]
+2020-Oct-05 12:40:08 pm [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3557 (http) with context path ''
+2020-Oct-05 12:40:08 pm [main] INFO  com.genesis.GenesisBackEndApplication - Started GenesisBackEndApplication in 4.62 seconds (JVM running for 5.56)
+2020-Oct-05 12:40:17 pm [main] INFO  com.genesis.GenesisBackEndApplication - Starting GenesisBackEndApplication on LAPTOP-IK3ASUU3 with PID 1200 (C:\Users\stani\eclipse-workspace\JavaWorkspace\GenesisBackEnd_V2.1\target\classes started by stani in C:\Users\stani\eclipse-workspace\JavaWorkspace\GenesisBackEnd_V2.1)
+2020-Oct-05 12:40:17 pm [main] INFO  com.genesis.GenesisBackEndApplication - No active profile set, falling back to default profiles: default
+2020-Oct-05 12:40:18 pm [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-Oct-05 12:40:18 pm [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25ms. Found 0 JPA repository interfaces.
+2020-Oct-05 12:40:19 pm [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3557 (http)
+2020-Oct-05 12:40:19 pm [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3557"]
+2020-Oct-05 12:40:19 pm [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-Oct-05 12:40:19 pm [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-Oct-05 12:40:19 pm [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-Oct-05 12:40:19 pm [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1587 ms
+2020-Oct-05 12:40:19 pm [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-Oct-05 12:40:19 pm [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-Oct-05 12:40:20 pm [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-Oct-05 12:40:20 pm [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-Oct-05 12:40:20 pm [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-Oct-05 12:40:20 pm [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2020-Oct-05 12:40:21 pm [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-Oct-05 12:40:21 pm [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-Oct-05 12:40:21 pm [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-Oct-05 12:40:21 pm [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-Oct-05 12:40:22 pm [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3557"]
+2020-Oct-05 12:40:22 pm [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3557 (http) with context path ''
+2020-Oct-05 12:40:22 pm [main] INFO  com.genesis.GenesisBackEndApplication - Started GenesisBackEndApplication in 4.82 seconds (JVM running for 5.715)
+2020-Oct-05 12:41:05 pm [http-nio-3557-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-Oct-05 12:41:05 pm [http-nio-3557-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-Oct-05 12:41:05 pm [http-nio-3557-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+2020-Nov-08 13:42:33 pm [main] INFO  com.genesis.GenesisBackEndApplication - Starting GenesisBackEndApplication on LAPTOP-IK3ASUU3 with PID 19620 (C:\Users\stani\eclipse-workspace\JavaWorkspace\GenesisBackEnd_V2.1\target\classes started by stani in C:\Users\stani\eclipse-workspace\JavaWorkspace\GenesisBackEnd_V2.1)
+2020-Nov-08 13:42:33 pm [main] INFO  com.genesis.GenesisBackEndApplication - No active profile set, falling back to default profiles: default
+2020-Nov-08 13:42:34 pm [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-Nov-08 13:42:34 pm [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 39ms. Found 0 JPA repository interfaces.
+2020-Nov-08 13:42:35 pm [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3557 (http)
+2020-Nov-08 13:42:35 pm [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3557"]
+2020-Nov-08 13:42:35 pm [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-Nov-08 13:42:35 pm [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-Nov-08 13:42:35 pm [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-Nov-08 13:42:35 pm [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2136 ms
+2020-Nov-08 13:42:36 pm [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-Nov-08 13:42:36 pm [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-Nov-08 13:42:36 pm [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-Nov-08 13:42:36 pm [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-Nov-08 13:42:36 pm [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-Nov-08 13:42:36 pm [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2020-Nov-08 13:42:39 pm [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-Nov-08 13:42:39 pm [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-Nov-08 13:42:39 pm [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-Nov-08 13:42:39 pm [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-Nov-08 13:42:39 pm [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3557"]
+2020-Nov-08 13:42:39 pm [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3557 (http) with context path ''
+2020-Nov-08 13:42:39 pm [main] INFO  com.genesis.GenesisBackEndApplication - Started GenesisBackEndApplication in 6.773 seconds (JVM running for 8.2)
+2020-Nov-08 13:43:35 pm [http-nio-3557-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-Nov-08 13:43:35 pm [http-nio-3557-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-Nov-08 13:43:35 pm [http-nio-3557-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2020-Nov-09 13:17:33 pm [main] INFO  com.genesis.GenesisBackEndApplication - Starting GenesisBackEndApplication on LAPTOP-IK3ASUU3 with PID 12184 (C:\Users\stani\eclipse-workspace\JavaWorkspace\GenesisBackEnd_V2.1\target\classes started by stani in C:\Users\stani\eclipse-workspace\JavaWorkspace\GenesisBackEnd_V2.1)
+2020-Nov-09 13:17:33 pm [main] INFO  com.genesis.GenesisBackEndApplication - No active profile set, falling back to default profiles: default
+2020-Nov-09 13:17:35 pm [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-Nov-09 13:17:35 pm [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 34ms. Found 0 JPA repository interfaces.
+2020-Nov-09 13:17:36 pm [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3557 (http)
+2020-Nov-09 13:17:36 pm [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3557"]
+2020-Nov-09 13:17:36 pm [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-Nov-09 13:17:36 pm [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-Nov-09 13:17:36 pm [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-Nov-09 13:17:36 pm [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2901 ms
+2020-Nov-09 13:17:37 pm [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-Nov-09 13:17:37 pm [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-Nov-09 13:17:37 pm [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-Nov-09 13:17:37 pm [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-Nov-09 13:17:38 pm [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-Nov-09 13:17:38 pm [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2020-Nov-09 13:17:41 pm [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-Nov-09 13:17:41 pm [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-Nov-09 13:17:41 pm [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-Nov-09 13:17:42 pm [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-Nov-09 13:17:43 pm [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3557"]
+2020-Nov-09 13:17:43 pm [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3557 (http) with context path ''
+2020-Nov-09 13:17:43 pm [main] INFO  com.genesis.GenesisBackEndApplication - Started GenesisBackEndApplication in 10.363 seconds (JVM running for 12.335)
+2020-Nov-09 13:25:37 pm [http-nio-3557-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-Nov-09 13:25:37 pm [http-nio-3557-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-Nov-09 13:25:37 pm [http-nio-3557-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 23 ms
+2020-Nov-09 18:22:32 pm [main] INFO  com.genesis.GenesisBackEndApplication - Starting GenesisBackEndApplication on LAPTOP-IK3ASUU3 with PID 24168 (C:\Users\stani\eclipse-workspace\JavaWorkspace\GenesisBackEnd_V2.1\target\classes started by stani in C:\Users\stani\eclipse-workspace\JavaWorkspace\GenesisBackEnd_V2.1)
+2020-Nov-09 18:22:32 pm [main] INFO  com.genesis.GenesisBackEndApplication - No active profile set, falling back to default profiles: default
+2020-Nov-09 18:22:34 pm [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-Nov-09 18:22:34 pm [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 41ms. Found 0 JPA repository interfaces.
+2020-Nov-09 18:22:36 pm [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3557 (http)
+2020-Nov-09 18:22:36 pm [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3557"]
+2020-Nov-09 18:22:36 pm [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-Nov-09 18:22:36 pm [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-Nov-09 18:22:36 pm [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-Nov-09 18:22:36 pm [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3501 ms
+2020-Nov-09 18:22:37 pm [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-Nov-09 18:22:37 pm [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-Nov-09 18:22:37 pm [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-Nov-09 18:22:37 pm [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-Nov-09 18:22:38 pm [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-Nov-09 18:22:38 pm [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2020-Nov-09 18:22:39 pm [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-Nov-09 18:22:39 pm [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-Nov-09 18:22:40 pm [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-Nov-09 18:22:40 pm [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-Nov-09 18:22:40 pm [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3557"]
+2020-Nov-09 18:22:40 pm [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3557 (http) with context path ''
+2020-Nov-09 18:22:40 pm [main] INFO  com.genesis.GenesisBackEndApplication - Started GenesisBackEndApplication in 8.798 seconds (JVM running for 10.792)
+2020-Nov-09 18:23:01 pm [http-nio-3557-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-Nov-09 18:23:01 pm [http-nio-3557-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-Nov-09 18:23:01 pm [http-nio-3557-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 33 ms

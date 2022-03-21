@@ -1,0 +1,43 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width:100%;
+    height: 3rem;
+    background-color: blue;
+    text-align: center;
+    color: white;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+    padding-bottom: 4.5rem;    /* Footer height */
+}
+
+
+body {
+
+    font-family: "Lato", sans-serif;
+    transition: background-color .5s;
+    /*background-image: url('./assets/museum.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-size: cover;
+    background-attachment: fixed;*/
+  }
+
+  
+
+
+
+
+ 

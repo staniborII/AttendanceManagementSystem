@@ -1,0 +1,60 @@
+<div class="container">
+    <h1>Registration Form</h1>
+    <form [formGroup]="registerationForm" (ngSubmit)="submitted=true">
+      <div class="form-group">
+        <label>Employee Id</label>
+        <input type="number" class="form-control" formControlName="userId">
+        <p *ngIf="registerForm.controls.userId.errors" class="alert alert-danger">This field is required!</p>
+      </div>
+      <div class="form-group">
+        <label>First Name</label>
+        <input type="text" class="form-control" formControlName="firstName">
+        <p *ngIf="registerForm.controls.firstName.errors" class="alert alert-danger">This field is required!</p>
+      </div>
+      <div class="form-group">
+        <label>Last Name</label>
+        <input type="text" class="form-control" formControlName="lastName">
+        <p *ngIf="registerForm.controls.lastName.errors" class="alert alert-danger">This field is required!</p>
+      </div>
+      <!--<div class="form-group">
+        <fieldset formGroupName="address">
+          <label>Street</label>
+          <input type="text" class="form-control" formControlName="street">
+          <label>Zip</label>
+          <input type="text" class="form-control" formControlName="zip">
+          <label>City</label>
+          <input type="text" class="form-control" formControlName="city">
+        </fieldset>
+      </div> -->
+      <div class="form-group">
+        <label>Email </label>
+        <input type="email" class="form-control" formControlName="email">
+        <p *ngIf="registerForm.controls.email.errors" class="alert alert-danger">This field is required!</p>
+      </div>
+      <div class="form-group">
+        <label>Designation</label>
+        <input type="text" class="form-control" formControlName="designation">
+        <p *ngIf="registerForm.controls.designation.errors" class="alert alert-danger">This field is required!</p>
+      </div>
+      <div class="form-group">
+        <label>RFID</label>
+        <input type="number" class="form-control" formControlName="rfid">
+        <p *ngIf="registerForm.controls.rfid.errors" class="alert alert-danger">This field is required!</p>
+      </div>
+      <div class="form-group">
+        <label>Gender</label>
+        <!--<input type="" class="form-control" formControlName="designation">-->
+        <select class="form-control" formControlName="userGender">
+            <option value="">Choose your gender:</option>
+            <option value="MALE">MALE</option>
+            <option value="FEMALE">FEMALE</option>
+            <option value="OTHERS">OTHERS</option>
+        </select>
+        <p *ngIf="registerForm.controls.userGender.errors" class="alert alert-danger">This field is required!</p>
+      </div>
+      
+      <button type="submit">Submit</button>
+    </form>
+  <br/>
+  </div>
+  

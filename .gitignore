@@ -15,3 +15,5 @@
 *.aliases
 *.lvlps
 .cache/
+
+./node_modules

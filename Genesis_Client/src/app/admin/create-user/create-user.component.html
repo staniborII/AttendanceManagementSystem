@@ -1,0 +1,178 @@
+
+<!--
+<h3>Create Employee</h3>
+<div [hidden]="submitted" style="width: 400px;">
+    <form (ngSubmit)="onSubmit()">
+
+        <div class="form-group">
+            <label for="userId">Employee Id</label>
+            <input type="number" class="form-control" id="userId" required [(ngModel)]="user.userId" name="userId">
+        </div>
+
+        <div class="form-group">
+            <label for="name">First Name</label>
+            <input type="text" class="form-control" id="firstName" required [(ngModel)]="user.firstName" name="firstName">
+        </div>
+
+        <div class="form-group">
+            <label for="name">Last Name</label>
+            <input type="text" class="form-control" id="lastName" required [(ngModel)]="user.lastName" name="lastName">
+        </div>
+
+        <div class="form-group">
+            <label for="name">Email ID</label>
+            <input type="text" class="form-control" id="emailId" required [(ngModel)]="user.emailId" name="emailId">
+        </div>
+
+        <div class="form-group">
+            <label for="designation">Designation</label>
+            <input type="text" class="form-control" id="designation" required [(ngModel)]="user.designation" name="designation">
+        </div>
+
+        <div class="form-group">
+            <label for="rfid">RFID</label>
+            <input type="number" class="form-control" id="rfid" required [(ngModel)]="user.rfid" name="rfid">
+        </div>
+
+        <div class="form-group">
+            <label for="gender">Gender</label>
+            <select class="form-control" name="gender" id="gender" required [(ngModel)]="user.userGender">
+                <option value="MALE">MALE</option>
+                <option value="FEMALE">FEMALE</option>
+            </select>
+        </div>
+        
+
+        <button type="submit" class="btn btn-success">Submit</button>
+        <button type="button" class="btn btn-secondary" style="margin-left: 10px" (click)=back()>Back</button>
+
+    </form>
+
+</div>
+
+
+<div [hidden]="!submitted">
+    <h4>{{successMessage}}</h4>
+    <h4>Please wait....redirecting back to admin home in {{time_out}} seconds</h4>
+</div>
+
+-->
+
+<p style="margin-left: 300px">{{successMessage}}</p>
+<p style="margin-left: 300px">{{errorMessage}}</p>
+<br>
+<p style="margin-left: 300px">{{redirection}}</p>
+
+<br>
+
+
+<div class="col-lg-6 offset-lg-4 col-md-4 offset-md-1 col-sm-5 offset-sm-3 col-xs-12 offset-xs-0">
+  <div class="container">
+      <h1>Registration Form</h1>
+      <form [formGroup]="registrationForm" (ngSubmit)="onSubmit()">
+        <div class="form-group">
+          <label>Employee Id</label>
+          <input autofocus type="number" class="form-control" formControlName="employeeId">
+          <p *ngIf="registrationForm.controls.employeeId.errors" class="alert alert-danger">This field is required!</p>
+        </div>
+        <div class="form-group">
+          <label>First Name</label>
+          <input type="text" class="form-control" formControlName="firstName">
+        <!-- <p *ngIf="registrationForm.controls.firstName.errors" class="alert alert-danger">This field is required!</p>-->
+          <p *ngIf="!registrationForm.get('firstName').valid && registrationForm.get('firstName').dirty" class="alert alert-danger">Please enter only alphabets</p>
+
+        </div>
+        <div class="form-group">
+          <label>Last Name</label>
+          <input autofocus type="text" class="form-control" formControlName="lastName">
+          <p *ngIf="!registrationForm.get('lastName').valid && registrationForm.get('lastName').dirty" class="alert alert-danger">Please enter only alphabets</p>
+        </div>
+        
+        <div class="form-group">
+          <fieldset formGroupName="address">
+            <legend>Enter your home address</legend>
+            <label>Street Name</label>
+            <input type="text" class="form-control" formControlName="streetName">
+            <p *ngIf="!address.controls['streetName'].valid && address.controls['streetName'].dirty" class="alert alert-danger">Please enter only alphabets</p>
+            <label>Street No</label>
+            <input type="text" class="form-control" formControlName="streetNo">
+            <p *ngIf="!address.controls['streetNo'].valid && address.controls['streetNo'].dirty" class="alert alert-danger">Please enter only numbers</p>
+            <label>Zip</label>
+            <input type="text" class="form-control" formControlName="zip">
+            <p *ngIf="!address.controls['zip'].valid && address.controls['zip'].dirty" class="alert alert-danger">Please enter a 5 digit valid zip code</p>
+            <label>City</label>
+            <input type="text" class="form-control" formControlName="city">
+            <p *ngIf="!address.controls['city'].valid && address.controls['city'].dirty" class="alert alert-danger">Please enter only alphabets</p>
+            <label>State</label>
+            <input type="text" class="form-control" formControlName="state">
+            <p *ngIf="!address.controls['state'].valid && address.controls['state'].dirty">Please enter only alphabets</p>
+          </fieldset>
+        </div>
+        
+        <div class="form-group">
+          <label>Email </label>
+          <input type="email" class="form-control" formControlName="emailId">
+          <p *ngIf="!registrationForm.get('emailId').valid && registrationForm.get('emailId').dirty" class="alert alert-danger">e.g.: abc@mail.com</p>
+        </div>
+        
+        <div class="form-group">
+          <label>Phone No</label>
+          <input type="number" class="form-control" formControlName="phoneNumber">
+          <p *ngIf="registrationForm.controls.phoneNumber.errors" class="alert alert-danger">Please enter 11 digit phone no.</p>
+        </div>
+
+        <div class="form-group">
+          <label>Designation</label>
+          <input type="text" class="form-control" formControlName="designation">
+          <p *ngIf="registrationForm.controls.designation.errors" class="alert alert-danger">This field is required!</p>
+        </div>
+
+        <div class="form-group">
+          <label>RFID</label>
+          <input type="number" class="form-control" formControlName="rfid">
+          <p *ngIf="registrationForm.controls.rfid.errors" class="alert alert-danger">Please enter 5 digit Rfid no.</p>
+        </div>
+
+        <!--Select doesnt give suggestions datList does-->
+        <!-- <div class="form-group">
+          <label>Gender</label>
+          <select class="form-control" formControlName="userGender">
+              <option value="">Choose your gender:</option>
+              <option value="MALE">MALE</option>
+              <option value="FEMALE">FEMALE</option>
+              <option value="OTHERS">OTHERS</option>
+          </select>
+          <p *ngIf="registrationForm.controls.userGender.errors" class="alert alert-danger">This field is required!</p>
+        </div> -->
+
+        <div class="form-group">
+          <label>Gender</label>
+          <!--<input type="" class="form-control" formControlName="designation">-->
+          <select class="form-control" formControlName="userGender">
+              <option value="">Choose gender:</option>
+              <option value="MALE">MALE</option>
+              <option value="FEMALE">FEMALE</option>
+              <option value="OTHERS">OTHERS</option>
+          </select>
+          <p *ngIf="registrationForm.controls.userGender.errors" class="alert alert-danger">This field is required!</p>
+        </div>
+        
+        <div class="form-group">
+          <label>Role</label>
+          <!--<input type="" class="form-control" formControlName="designation">-->
+          <select class="form-control" formControlName="role">
+              <option value="">Choose role:</option>
+              <option value="ADMIN">ADMIN</option>
+              <option value="USER">USER</option>
+          </select>
+          <p *ngIf="registrationForm.controls.role.errors" class="alert alert-danger">This field is required!</p>
+        </div>
+        
+        <button [disabled]="!registrationForm.valid" type="submit" class="btn btn-success">Submit</button>
+        <button type="button" class="btn btn-secondary" style="margin-left: 10px" (click)=back()>Back</button>
+        
+      </form>
+    <br/>
+  </div>
+
+</div>
